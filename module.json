@@ -41,7 +41,6 @@
   "readme": "README.md",
   "url": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers",
   "bugs": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/issues",
-  "changelog": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/blob/master/CHANGELOG.md",
-  "manifest": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/raw/master/module.json",
-  "download": ""
+  "manifest": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/raw/main/module.json",
+  "download": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/releases/download/Latest/hide-gm-roll-modifiers-v1.0.0.zip"
 }
