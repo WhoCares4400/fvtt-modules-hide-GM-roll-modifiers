@@ -1,55 +1,31 @@
 {
-  "id": "hide-gm-rolls",
-  "name": "hide-gm-rolls",
+  "id": "hide-gm-roll-modifiers",
+  "name": "hide-gm-roll-modifiers",
   "title": "Hide GM Rolls",
   "description": "<p>Some GMs prefer to limit the information that players receive, to maintain the mystery. For example you may wish to hide the bonuses that your legendary creature gets on its rolls, or to roll truly in the blind when an event occurs, without alerting your players to it.</p><p>This module allows sanitizing public GM rolls by hiding formulas and breakdowns from players, showing just the total instead. It can also hide private GM rolls from players entirely.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 13,
+    "verified": "13.351"
+  },
+  "esmodules": [
+    "dist/hide_gm_roll_modifiers.js"
+  ],
+  "styles": [
+    "css/hide_gm_roll_modifiers.css"
+  ],
   "authors": [
-    {
-      "name": "sPOiDar",
-      "url": "https://github.com/sPOiDar/"
-    },
     {
       "name": "WhoCares4400",
       "discord": "whocares4400",
       "url": "https://github.com/WhoCares4400"
     }
   ],
-  "version": "0.16.0",
-  "compatibility": {
-    "minimum": 13,
-    "verified": "13.351"
-  },
-  "esmodules": [
-    "modules/hide_gm_rolls.js"
-  ],
-  "styles": [
-    "styles/hide_gm_rolls.css"
-  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "lang/de.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt_BR.json"
-    },
-    {
-      "lang": "it",
-      "name": "Italiano",
-      "path": "lang/it.json"
-    },
-    {
-      "lang": "pl",
-      "name": "Polski",
-      "path": "lang/pl.json"
     }
   ],
   "relationships": {
@@ -63,9 +39,9 @@
   },
   "license": "LICENSE",
   "readme": "README.md",
-  "url": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls",
-  "bugs": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/issues",
-  "changelog": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/blob/master/CHANGELOG.md",
-  "manifest": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/raw/master/module.json",
-  "download": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/releases/download/v0.15.4/hide-gm-rolls-v0.15.4.zip"
+  "url": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers",
+  "bugs": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/issues",
+  "changelog": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/blob/master/CHANGELOG.md",
+  "manifest": "https://github.com/WhoCares4400/fvtt-modules-hide-GM-roll-modifiers/raw/master/module.json",
+  "download": ""
 }

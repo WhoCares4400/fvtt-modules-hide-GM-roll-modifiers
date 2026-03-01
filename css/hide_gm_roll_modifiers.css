@@ -1,0 +1,13 @@
+.chat-log li.message.gm-roll-hidden {
+	display: none !important;
+}
+
+.chat-log div.item-card div.card-content.gm-roll-hidden,
+.chat-log .chat-message.gm-roll-modifier-hidden .dice-result .dice-formula,
+.chat-log .chat-message.gm-roll-modifier-hidden .dice-result .dice-tooltip-collapser,
+.chat-log .chat-message.gm-roll-chevron-hidden .dice-total::before,
+.chat-log .chat-message.gm-roll-chevron-hidden .dice-total::after {
+	display: none !important;
+	margin: 0;
+	padding: 0;
+}
